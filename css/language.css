@@ -1,0 +1,21 @@
+#leading{
+  text-align: center;
+}
+
+#leading div{
+  display: inline-block;
+  width: 700px;
+}
+
+#leading-word{
+  font-size: larger;
+}
+
+#courses_content{
+  text-align: center;
+}
+
+#courses_content div{
+  display: inline-block;
+  width: 1000px;
+}

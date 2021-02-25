@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>main</title>
+  <link href="css/header_footer.css" rel="stylesheet" type="text/css">
+  <link href="css/checkout.css" rel="stylesheet" type="text/css">
+  <script src="scripts/checkout.js"></script>
+</head>
+
+<body>
+<header>
+  <div>
+    <div class="header">
+      <div>
+        <img class="logo" alt="logo" src="images/logo.png">
+        <span class="logo_word">ELU language school</span>
+      </div>
+      <ul class="header_ul">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li class="header_ul_Courses"><a href="Courses.html">Courses</a>
+          <ul class="header_ul_ul">
+            <li><a href="French.html">French</a></li>
+            <li><a href="German.html">German</a></li>
+            <li><a href="Spanish.html">Spanish</a></li>
+          </ul>
+        </li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="login.html"><img class="login_icon" alt="login" src="images/login.png"></a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="content">
+  <br>
+  <div>
+    <h1>Check Out</h1>
+    <p>Please choose your courses by fill this form</p>
+    <form action="Final.html">
+      First name: <input type="text" style="width: 200px; height: 25px"><br/><br/>
+      Last name: <input type="text" style="width: 200px; height: 25px"><br/><br/>
+      Language:
+      <select style="width: 200px; height: 25px">
+        <option value="French">French</option>
+        <option value="German">German</option>
+        <option value="Spanish">Spanish</option>
+      </select><br/><br/>
+      Level: <input type="text" id="level" placeholder="A natural number between 1 and 5" style="width: 200px; height: 25px"><br/><br/>
+      Hours: <input type="text" id="hours" placeholder="A natural number" style="width: 200px; height: 25px"><br/><br/>
+      Location:
+      <select style="width: 200px; height: 25px">
+        <option value="Ballsbridge">Ballsbridge</option>
+        <option value="Dundrum">Dundrum</option>
+      </select><br/><br/>
+      <h2>You need to pay € <input type="text" id="Price" style="width: 50px; height: 25px">.</h2>
+      <p>I agree to the Terms of Use.<input type="checkbox"></p>
+      <input type="submit" value="submit" id="b1" style="width: 200px; height: 25px"><br/><br><br>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <br><br><br><hr>
+  <div class="footer"><p>Made by Nan Wu for COMP20030. ©2020 All Rights Reserved.</p></div>
+</footer>
+</body>
+</html>

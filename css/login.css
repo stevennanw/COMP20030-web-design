@@ -1,0 +1,20 @@
+.login_main
+{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: 450px;
+  padding: 100px;
+}
+
+.login_title {
+  font-size: 35px;
+  margin-bottom: 1px;
+  display: block;
+  color: black;
+}
+
+.login_background {
+  background-image: url("../images/login_background.jpg");
+  background-size: cover;
+}
